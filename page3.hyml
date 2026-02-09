@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>交流與聯絡｜Sheng</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system;
+      background:#f6f7fb;
+      color:#333;
+    }
+    .box{
+      max-width:480px;
+      margin:40px auto;
+      background:#fff;
+      padding:28px;
+      border-radius:16px;
+      box-shadow:0 12px 30px rgba(0,0,0,.08);
+    }
+    h1{ text-align:center; }
+    p{ line-height:1.7; }
+    a{
+      display:block;
+      margin-top:14px;
+      padding:12px;
+      text-align:center;
+      background:#6b4eff;
+      color:#fff;
+      text-decoration:none;
+      border-radius:10px;
+      font-weight:bold;
+    }
+    .back{
+      background:#eee;
+      color:#333;
+    }
+  </style>
+</head>
+<body>
+
+<div class="box">
+  <h1>交流與聯絡</h1>
+
+  <p>
+    目前以交流分享為主，  
+    沒有制式服務、沒有推銷壓力。
+  </p >
+
+  <p>
+    如果你想聊聊生活、環境感受，  
+    或單純交流想法，歡迎聯絡我。
+  </p >
+
+  <a href="https://line.me/ti/p/sheng.598"
+     target="_blank" rel="noopener noreferrer">💬 加我 LINE</a >
+
+  <a href="index.html" class="back">← 回首頁</a >
+</div>
+
+</body>
+</html>
