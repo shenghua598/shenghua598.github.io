@@ -14,21 +14,19 @@ color:white;
 text-align:center;
 }
 
-/* 主內容 */
+/* 主容器 */
 
-.card{
+.container{
 width:100%;
 min-height:100vh;
 padding:50px 25px 120px;
 box-sizing:border-box;
-background:rgba(255,255,255,0.12);
-backdrop-filter:blur(14px);
 }
 
-/* 品牌標題 */
+/* 品牌 */
 
 .brand{
-font-size:36px;
+font-size:38px;
 font-weight:700;
 margin-bottom:10px;
 }
@@ -36,17 +34,17 @@ margin-bottom:10px;
 .subtitle{
 font-size:18px;
 opacity:0.9;
-margin-bottom:20px;
+margin-bottom:25px;
 }
 
-p{
-font-size:18px;
-line-height:1.6;
-}
+/* 卡片 */
 
-hr{
-margin:30px 0;
-opacity:0.3;
+.card{
+background:rgba(255,255,255,0.15);
+backdrop-filter:blur(14px);
+padding:25px;
+border-radius:18px;
+margin-bottom:25px;
 }
 
 /* 按鈕 */
@@ -69,7 +67,29 @@ transition:0.2s;
 transform:scale(1.04);
 }
 
-/* LINE 固定按鈕 */
+/* 商品 */
+
+.product{
+background:white;
+color:#333;
+border-radius:16px;
+padding:15px;
+margin-top:20px;
+box-shadow:0 6px 14px rgba(0,0,0,0.15);
+}
+
+.product img{
+width:100%;
+border-radius:12px;
+}
+
+.price{
+font-size:20px;
+font-weight:700;
+margin-top:10px;
+}
+
+/* LINE 按鈕 */
 
 .line-btn{
 position:fixed;
@@ -87,10 +107,10 @@ font-weight:700;
 box-shadow:0 6px 16px rgba(0,0,0,0.25);
 }
 
-/* 說明文字 */
+/* 說明 */
 
 .note{
-margin-top:40px;
+margin-top:20px;
 font-size:16px;
 opacity:0.9;
 }
@@ -100,7 +120,7 @@ opacity:0.9;
 
 <body>
 
-<div class="card">
+<div class="container">
 
 <div class="brand">萬億來</div>
 
@@ -108,26 +128,32 @@ opacity:0.9;
 翡翠 × 風水 × 能量交流
 </div>
 
+<div class="card">
+
 <p>
 👋 有緣 相識 緣份<br>
-從 IG / TikTok 進來的朋友，歡迎你 🙌
+從 IG / TikTok 進來的朋友歡迎你
 </p >
 
 <p>
 📌 分享風水 × 日常生活 × 創作交流
 </p >
 
-<hr>
+</div>
+
+<div class="card">
 
 <p><b>✨ 提供內容</b></p >
 
 <p>
 🔮 風水建議<br>
-📱 社群內容交流<br>
-🤝 合作 / 邀約
+📱 社群交流<br>
+🤝 合作邀約
 </p >
 
-<hr>
+</div>
+
+<div class="card">
 
 <a class="btn" href=" ">
 👉 我的 IG
@@ -137,17 +163,41 @@ opacity:0.9;
 👉 我的 TikTok
 </a >
 
-<a class="btn" href="#">
-🛍 翡翠安心選購
+<a class="btn" href="https://line.me/ti/p/~sheng598">
+💬 LINE交流 / 諮詢
 </a >
 
-<a class="btn" href="https://line.me/ti/p/~sheng598">
-💬 加我 LINE｜交流 / 諮詢
-</a >
+</div>
+
+<div class="card">
+
+<h3>精選翡翠</h3>
+
+<div class="product">
+
+< img src="https://images.unsplash.com/photo-1611599537845-1c7aca0091c0">
+
+<p>天然翡翠吊墜</p >
+
+<div class="price">NT$ 3,180</div>
+
+</div>
+
+<div class="product">
+
+< img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f">
+
+<p>翡翠玉牌</p >
+
+<div class="price">NT$ 2,180</div>
+
+</div>
+
+</div>
 
 <div class="note">
 目前以交流分享為主<br>
-未來將開放更多服務
+未來開放更多服務
 </div>
 
 </div>
