@@ -8,27 +8,35 @@
 
 body{
 margin:0;
-font-family:Arial,sans-serif;
-background:linear-gradient(180deg,#7b7fd6,#6a5fbf);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto;
+background:linear-gradient(180deg,#7f8cff,#6b63d9);
 color:white;
 text-align:center;
 }
 
+/* 主內容 */
+
 .card{
 width:100%;
 min-height:100vh;
-padding:40px 25px;
+padding:50px 25px 120px;
 box-sizing:border-box;
-
-background:rgba(255,255,255,0.15);
-backdrop-filter:blur(10px);
-
-border-radius:0;
+background:rgba(255,255,255,0.12);
+backdrop-filter:blur(14px);
 }
 
-h1{
-font-size:34px;
+/* 品牌標題 */
+
+.brand{
+font-size:36px;
+font-weight:700;
 margin-bottom:10px;
+}
+
+.subtitle{
+font-size:18px;
+opacity:0.9;
+margin-bottom:20px;
 }
 
 p{
@@ -37,26 +45,31 @@ line-height:1.6;
 }
 
 hr{
-margin:25px 0;
+margin:30px 0;
 opacity:0.3;
 }
 
-a{
+/* 按鈕 */
+
+.btn{
 display:block;
 background:white;
 padding:16px;
-margin:12px 0;
-border-radius:12px;
+margin:14px 0;
+border-radius:14px;
 text-decoration:none;
-font-weight:bold;
+font-weight:600;
 font-size:18px;
 color:#333;
-box-shadow:0 4px 10px rgba(0,0,0,0.15);
+box-shadow:0 6px 14px rgba(0,0,0,0.15);
+transition:0.2s;
 }
 
-a:hover{
-transform:scale(1.03);
+.btn:hover{
+transform:scale(1.04);
 }
+
+/* LINE 固定按鈕 */
 
 .line-btn{
 position:fixed;
@@ -67,14 +80,17 @@ width:90%;
 background:#06C755;
 color:white;
 text-align:center;
-padding:16px;
+padding:18px;
 border-radius:30px;
 font-size:18px;
-font-weight:bold;
+font-weight:700;
+box-shadow:0 6px 16px rgba(0,0,0,0.25);
 }
 
+/* 說明文字 */
+
 .note{
-margin-top:30px;
+margin-top:40px;
 font-size:16px;
 opacity:0.9;
 }
@@ -86,11 +102,15 @@ opacity:0.9;
 
 <div class="card">
 
-<h1>👋 有緣 相識 緣份</h1>
+<div class="brand">萬億來</div>
+
+<div class="subtitle">
+翡翠 × 風水 × 能量交流
+</div>
 
 <p>
-從 IG / TikTok 進來的朋友<br>
-歡迎你 🙌
+👋 有緣 相識 緣份<br>
+從 IG / TikTok 進來的朋友，歡迎你 🙌
 </p >
 
 <p>
@@ -99,7 +119,7 @@ opacity:0.9;
 
 <hr>
 
-<p><b>✨ 提供：</b></p >
+<p><b>✨ 提供內容</b></p >
 
 <p>
 🔮 風水建議<br>
@@ -109,25 +129,25 @@ opacity:0.9;
 
 <hr>
 
-<a href=" ">
+<a class="btn" href=" ">
 👉 我的 IG
 </a >
 
-<a href="https://tiktok.com/@shenghua598">
+<a class="btn" href="https://tiktok.com/@shenghua598">
 👉 我的 TikTok
 </a >
 
-<a href="#">
-🛒 安心選購
+<a class="btn" href="#">
+🛍 翡翠安心選購
 </a >
 
-<a href="https://line.me/ti/p/~sheng598">
+<a class="btn" href="https://line.me/ti/p/~sheng598">
 💬 加我 LINE｜交流 / 諮詢
 </a >
 
 <div class="note">
 目前以交流分享為主<br>
-未來開放更多服務
+未來將開放更多服務
 </div>
 
 </div>
